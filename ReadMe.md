@@ -25,7 +25,7 @@
 - c. Описание товара
 20. Добавить 3 таких товара на страницу каталога (не следует добавлять более 3-х товаров)
 
-
+___
 
 ### Задания 2 [семинара](https://github.com/kremlik144/Web-Development-Basics-HTML_CSS/tree/main/Web_Development_Basics_HTML_CSS/HW2)
 
@@ -68,3 +68,6 @@
     * font-weight: 700;
     * font-size: 36px;
     * line-height: 80px;
+
+___
+
