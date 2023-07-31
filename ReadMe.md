@@ -1,6 +1,9 @@
 # Курс по основам веб-верстки HTML/CSS
 
-### Задания 1 [семинара](https://github.com/kremlik144/Web-Development-Basics-HTML_CSS/tree/main/Web_Development_Basics_HTML_CSS/HW1)
+### Задания 1-2 [семинара](https://github.com/kremlik144/Web-Development-Basics-HTML_CSS/tree/main/Web_Development_Basics_HTML_CSS/HW1-2)
+
+- 1 часть
+
 1. Скачать и настроить редактор кода, если этого не сделали на семинаре.
 2. Создать пустую папку, придумать название.
 3. Создать первую html страницу (index.html).
@@ -27,7 +30,7 @@
 
 ___
 
-### Задания 2 [семинара](https://github.com/kremlik144/Web-Development-Basics-HTML_CSS/tree/main/Web_Development_Basics_HTML_CSS/HW2)
+- 2 часть
 
 >Данная домашняя работа является продолжение предыдущей, не забываем использовать работу из прошлого урока
 
@@ -70,4 +73,6 @@ ___
     * line-height: 80px;
 
 ___
+
+
 
