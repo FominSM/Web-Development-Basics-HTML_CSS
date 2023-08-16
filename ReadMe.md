@@ -76,7 +76,7 @@ ___
 
 
 
-### Задания 3-4 [семинара](https://github.com/kremlik144/Web-Development-Basics-HTML_CSS/tree/main/Web_Development_Basics_HTML_CSS/HW3)
+### Задания 3-4 [семинара](https://github.com/kremlik144/Web-Development-Basics-HTML_CSS/tree/main/Web_Development_Basics_HTML_CSS/HW4)
 
 - 1 часть
 
