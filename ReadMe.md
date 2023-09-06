@@ -122,7 +122,6 @@ ___
 
 ### Задания 6 [семинара](https://github.com/kremlik144/Web-Development-Basics-HTML_CSS/tree/main/Web_Development_Basics_HTML_CSS/HW6)
 
-
 Мы приступаем к созданию нового адаптивного проекта
 
 > https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=188%3A2
@@ -138,5 +137,18 @@ ___
 * Добавить стили для всего контента сайта.
 * Расставить элементы в соответствии с макетом.
 * Адаптив создавать не нужно.
+
+___
+
+
+
+### Задания 7 [семинара](https://github.com/kremlik144/Web-Development-Basics-HTML_CSS/tree/main/Web_Development_Basics_HTML_CSS/HW7)
+
+> Макет https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=188%3A673
+
+В данном уроке мы переходим к созданию планшетной версии проекта.
+
+1. Создать медиа запрос, чтобы наш проект отлично смотрелся на разрешениях экрана 768-1024.
+2. Создать планшетную версию проекта.
 
 ___
