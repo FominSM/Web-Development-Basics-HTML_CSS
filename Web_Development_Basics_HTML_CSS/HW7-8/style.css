@@ -130,6 +130,7 @@
     height: 260px;
     display: grid;
     justify-items: center;
+    background-size: contain;
 }
 
 .item_2{
@@ -138,6 +139,7 @@
     height: 260px;
     display: grid;
     justify-items: center;
+    background-size: contain;
 }
 
 .item_3{
@@ -146,6 +148,7 @@
     height: 260px;
     display: grid;
     justify-items: center;
+    background-size: contain;
 }
 
 .item_4{
@@ -154,6 +157,7 @@
     height: 180px;
     display: grid;
     justify-items: center;
+    background-size: contain;
 }
 
 .item_back{
@@ -402,3 +406,109 @@
 
 }
 
+
+
+@media (max-width: 767px) and (min-width: 320px){
+
+    .center{
+        padding-left: calc(50% - 181px);
+        padding-right: calc(50% - 181px);
+    }
+
+    .top_menu{
+        gap: 200px;
+    }
+
+    .mobile_version{
+        display: none;
+    }
+
+    .top_content{
+        height: 363px;
+        justify-content: center;
+    }
+
+    .top_cnt_img{
+        display: none;
+    }
+
+    .color_rect{
+        margin-top: 150px;
+        width: 12px;
+        height: 70px;
+        flex-shrink: 0;
+    }
+
+    .top_txt{
+        padding-top: 148px;
+        width: 236px;
+    }
+
+    .part_1{
+        font-size: 38px;
+    }
+
+    .part_2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .part_3{
+        font-size: 20px;
+    }
+
+    .column_header{
+        padding-top: 64px;
+        padding-bottom: 64px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .item_1{
+        width: 343px;
+        height: 247px;
+        flex-shrink: 0;
+    }
+
+    .item_2{
+        width: 343px;
+        height: 247px;
+        flex-shrink: 0;
+    }
+
+    .item_3{
+        width: 343px;
+        height: 247px;
+        flex-shrink: 0;
+    }
+
+    .item_big{
+        width: 343.262px;
+        height: 111px;
+        flex-shrink: 0;
+    }
+
+    .item_txt{
+        padding-top: 101.75px;
+    }
+
+    .item_txt_big{
+        padding-top: 30px;
+    }
+
+    .item_menu_head{
+        padding-bottom: 64.7px;
+    }
+
+    .item_menu_body{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-bottom: 40.61px;
+    }
+
+    .item_menu{
+        width: 358px;
+    }
+}
