@@ -168,3 +168,17 @@ ___
 
 
 
+### Задания 9 [семинара](https://github.com/kremlik144/Web-Development-Basics-HTML_CSS/tree/main/Web_Development_Basics_HTML_CSS/HW9)
+
+Макет https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=190%3A1194
+
+На данном уроке нам необходимо доделать подвал, главной страницы интернет-магазина.
+
+Продолжаем работу с проектом из прошлого урока:
+* Добавляем весь контент подвала сайта.
+* Создаём планшетную версию проекта.
+* Создаем мобильную версию проекта.
+* Добавляем эффекты наведения.
+
+___
+
