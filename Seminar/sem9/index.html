@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 
+    1. При наведении на любую ссылку цвет текста должен стать красным
+    2. При нажатии на ссылку цвет текста должен стать зеленым в момент нажатия
+    3. Найти первый элемент списка и добавить нижнее подчеркивание ссылке
+    4. Найти последний элемент списка и добавить ссылке жирность font-weight: bold
+    5. У третьей ссылки нужно поменять цвет фона на оранжевый 
+    -->
+
+    <ul class="menu">
+        <li class="menu__list"><a href="#" class="menu__link">list-1</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">list-2</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">list-3</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">list-4</a></li>
+    </ul>
+
+
+    <!-- 
+    1. Дан код https://codepen.io/alexej-kadochnikow/pen/RwQrvov
+    2. Необходимо создать псевдоэлемент new
+    3. Разместить его в правом верхнем углу блока product чтобы он не смещал другие элементы
+    4. Размеры блока 35 на 35 px
+    5. цвет фона красный, а цвет текста белый
+    6. Необходимо создать псевдоэлемент sale
+    7. Разместить его в левом верхнем углу блока product чтобы он не смещал другие элементы
+    8. размеры блока 35 на 35 px
+    9. цвет фона оранжевый, а цвет текста белый 
+    -->
+
+    <div class="product product_new product_sale">
+        <div class="product__img"></div>
+        <h2 class="product__name">Name product</h2>
+        <p class="product__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+
+
+    <!-- 
+    1. Скопировать любой код svg с сайта https://fontawesome.com/
+    2. Необходимо добавить эффект наведения на картинку и поменять значение цвета на
+    purple при наведении и yellow при нажатии 
+    -->
+
+    <div class="icons">
+        <a href="#" class="icon">
+            <svg width="100px" xmlns="http://www.w3.org/2000/svg" height="100px" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M31.4907 63.4907C0 94.9813 0 145.671 0 247.04V264.96C0 366.329 0 417.019 31.4907 448.509C62.9813 480 113.671 480 215.04 480H232.96C334.329 480 385.019 480 416.509 448.509C448 417.019 448 366.329 448 264.96V247.04C448 145.671 448 94.9813 416.509 63.4907C385.019 32 334.329 32 232.96 32H215.04C113.671 32 62.9813 32 31.4907 63.4907ZM75.6 168.267H126.747C128.427 253.76 166.133 289.973 196 297.44V168.267H244.16V242C273.653 238.827 304.64 205.227 315.093 168.267H363.253C359.313 187.435 351.46 205.583 340.186 221.579C328.913 237.574 314.461 251.071 297.733 261.227C316.41 270.499 332.907 283.63 346.132 299.751C359.357 315.873 369.01 334.618 374.453 354.747H321.44C316.555 337.262 306.614 321.61 292.865 309.754C279.117 297.899 262.173 290.368 244.16 288.107V354.747H238.373C136.267 354.747 78.0267 284.747 75.6 168.267Z"/></svg>
+        </a>
+
+    </div>
+
+
+    <!-- 
+    1. Дан код https://codepen.io/alexej-kadochnikow/pen/yLveZbg
+    2. Необходимо добавить
+        a. При наведении на первый блок, чтобы он смещался на 50px вправо
+        b. при наведении на второй блок, он должен становиться в 2 раза больше
+        c. При наведении на 3 блок, он должен повернуться по часовой стрелке на 60 градусов
+        d. Все наведения должны быть плавными и выполнять переход за 1 секунду
+        e. Можно менять параметры ширины и высоты при необходимости
+    -->
+
+    <div class="content_4">
+        <div class="item4 item_1_4">1</div>
+        <div class="item4 item_2_4">2</div>
+        <div class="item4 item_3_4">3</div>
+    </div>
+
+
+
+
+    <!-- 
+        1. Дан код https://codepen.io/alexej-kadochnikow/pen/MWQKLop
+        2. Есть 4 блока, вам необходимо сделать 8 угольник
+        3. Для этого вам необходимо подобрать значение высоты
+        4. Задать значение фона для блоков
+        5. Подобрать верный угол поворота
+    -->
+
+    <div class="content_5">
+        <div class="item_5 item_1_5">1</div>
+        <div class="item_5 item_2_5">2</div>
+        <div class="item_5 item_3_5">3</div>
+        <div class="item_5 item_4_5">4</div>
+    </div>
+    
+
+    <!-- 
+        1. Дан код https://codepen.io/alexej-kadochnikow/pen/GRQozvb
+        2. Необходимо добавить произвольную анимацию на кнопку для этого можно
+        использовать генератор или придумать анимацию самостоятельно
+        https://animista.net/play/basic/rotate-scale , если необходимо быстро определиться
+        https://animista.net/play/attention/wobble
+    -->
+
+    <div class="button">Купить</div>
+
+    <div class="button1">Купить</div>
+
+
+
+
+    
+    
+</body>
+</html>

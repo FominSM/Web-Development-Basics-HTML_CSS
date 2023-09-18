@@ -1,0 +1,58 @@
+a{
+    text-decoration: none;
+}
+
+.nav__link{
+    color: rgb(154, 27, 245);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.firs_zagolovok{
+    color: #222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7d7987;
+}
+
+.second_zagolovok{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.about_image{
+    border-radius: 20px;
+}
+
+.input_line{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.register_button{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.main_body{
+    font-family: sans-serif;
+}
