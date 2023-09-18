@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
 }
 
 .center{
@@ -622,6 +622,8 @@
 .footer_body{
     background-image: url(./img/footer/body/Layer\ 41.svg);
     height: 448px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .footer_body_bacgraund{
@@ -707,17 +709,22 @@
     width: 256px;
     height: 49px;
     flex-shrink: 0;
-    border-radius: 30px;
+    border-radius: 30px 0px 0px 30px;
     padding-left: 22px;
     padding-right: 30px;
     fill: #E1E1E1;
+    border: none;
+}
+
+.email_input:hover{
+    background-color: #ecd2d6;
 }
 
 .input_line_button{
     width: 100px;
     height: 49px;
     background-color: #F16D7F;
-    border-radius: 30px;
+    border-radius: 0px 30px 30px 0px;
     color: #FFF;
     text-align: center;
     font-family: Lato;
@@ -814,6 +821,10 @@
 
     .top_menu{
         gap: 424px;
+    }
+
+    .dropdown-content{
+        left: 50px;
     }
 
     .top_content{
@@ -957,7 +968,7 @@
     }
 
     .dropdown-content{
-        left: 0px;
+        left: -150px;
     }
     
 
@@ -1092,6 +1103,10 @@
         justify-content:flex-start;
         gap: 48px;
         flex-direction: column;
+    }
+
+    .email_input{
+        width: 150px;
     }
 
     .footer_bottom{
